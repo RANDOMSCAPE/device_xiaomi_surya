@@ -146,9 +146,6 @@ PRODUCT_PACKAGES += \
     qti_telephony_utils.xml \
     telephony-ext \
 
-PRODUCT_BOOT_JARS += \
-    telephony-ext
-
 # Thermal
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/prebuilt/thermal/lib/android.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/android.hardware.thermal@1.0.so \
