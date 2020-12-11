@@ -42,7 +42,9 @@
 #include <sys/_system_properties.h>
 
 #include "property_service.h"
-#include "vendor_init.h"
+
+namespace android {
+namespace init {
 
 using android::base::GetProperty;
 using android::init::property_set;
@@ -229,3 +231,7 @@ void vendor_load_properties()
     // Workaround SafetyNet
     workaround_snet_properties();
 }
+
+}  // namespace init
+}  // namespace android
+
