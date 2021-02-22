@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rr_surya.mk
+    $(LOCAL_DIR)/reloaded_surya.mk
 
 COMMON_LUNCH_CHOICES := \
-    rr_surya-user \
-    rr_surya-userdebug \
-    rr_surya-eng
+    reloaded_surya-user \
+    reloaded_surya-userdebug \
+    reloaded_surya-eng
